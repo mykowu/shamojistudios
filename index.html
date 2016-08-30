@@ -30,7 +30,12 @@
     <![endif]-->
     
     <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us14.list-manage.com","uuid":"452e5093bb5c0ae954a127226","lid":"679686e576"}) })</script>
-    
+    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    </style>
 </head>
 
 <body id="page-top" class="index">
@@ -72,11 +77,9 @@
     <header>
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt="">
+                <div class="col-lg-4">
                     <div class="intro-text">
-                        <span class="name">Shamoji Studios</span>
-                        <hr class="star-light">
+                        <span class="name">We are Shamoji</span>
                         <span class="skills">Shamoji Studios is a team of creative minds looking to educate and entertain the world.</span>
                     </div>
                 </div>
@@ -84,6 +87,37 @@
         </div>
     </header>
     
+    <!-- Begin MailChimp Signup Form -->
+    <section class="info" id="subscribe">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Sign up for the latest updates!</h2>
+                    <br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+                    <form action="//shamojistudios.us14.list-manage.com/subscribe/post?u=452e5093bb5c0ae954a127226&amp;id=679686e576" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-8 floating-label-form-group controls">
+                                <label>Email Address</label>
+                                <input style="color:#FFF" type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group col-xs-4">
+                                <button type="submit" class="btn btn-success btn-lg btn-block" style="padding:24px 16px">Subscribe</button>
+                            </div>
+                        </div>
+                        <div id="success"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End mc_embed_signup-->
     
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
@@ -91,7 +125,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Projects</h2>
-                    <hr class="star-primary">
+                    <br>
                 </div>
             </div>
             <div class="row">
@@ -123,9 +157,13 @@
     <section class="success" id="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-light">
+                <div class="col-lg-12">
+                    <img class="img-responsive center-block" src="img/profile.png" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center" style="margin:20px 0px">
+                    <h2>Who we are</h2>
                 </div>
             </div>
             <div class="row">
@@ -142,7 +180,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Contact Us</h2>
-                    <hr class="star-primary">
+                    <br>
                 </div>
             </div>
             <div class="row">
@@ -201,16 +239,10 @@
                                 <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
                             </li>
                             <li>
                                 <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -253,25 +285,10 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Counting Numbers with Nom Nom Fish</h2>
-                            <hr class="star-primary">
                             <img src="img/portfolio/nomfishNumbers_cover.jpg" class="img-responsive img-centered" alt="">
-                            <p>ebook available on Amazon Kindle</p>
+                            <a href="https://www.amazon.com" role="button" class="btn btn-success btn-lg" style="padding:24px 26px">e-Book available on Amazon Kindle</a>
                             <p>(if you would like to purchase a hard cover book, please sign up and we will let you know when it becomes available)</p>
                             <p>Nom Nom Fish love playing with numbers and they have a lot of fun doing it. In their first book for kids, parents and anyone else who love to learn, our Nom Nom Fish display creative ways to go from 1 to 10.</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -292,27 +309,12 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Galactic Noodlez</h2>
-                            <hr class="star-primary">
                             <img src="img/portfolio/GalacticNoodlez_cover.png" class="img-responsive img-centered" alt="">
                             <p>COMING SOON!</p>
                             <p>We will launch this new book and future series on Kickstarter this fall.</p>
                             <p>(sign up to find out when)</p>
                             <p>Galactic Noodez is a story about three young kids who team up to save the world from hunger and the evil Dr. Nincompoop.</p>
                             <p>Yes, this will be an epic adventure.</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -333,7 +335,6 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Project Title</h2>
-                            <hr class="star-primary">
                             <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
