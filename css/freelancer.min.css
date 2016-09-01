@@ -14,14 +14,14 @@
     background-color: #F2F2F2;
 }
 .mc-field-group input, .mc-field-group #mce-EMAIL {
-    width: 70%;
+    width: 100%;
     height: 60px;
     color: grey;
     font-family: 'Lato', sans-serif;
     font-size: 20px;
-    border: none;
+    border: 1px solid #DDD;
     padding: 3px 15px;
-    margin-right: 15px;
+    margin-bottom: 15px;
     float: left;
     -webkit-transition: all 0.30s ease-in-out;
     }
@@ -36,7 +36,7 @@
     font-size: 20px;
     color: #FFFFFF;
     cursor: pointer;
-    width: 25%;
+    width: 100%;
     height: 60px;
     -webkit-transition: all 0.30s ease-in-out;
     }
